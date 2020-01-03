@@ -15,12 +15,32 @@ body {
 
 }
 
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+section {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 section h3 {
 	font-size: 1.7em;
+	margin-bottom: 0.5em;
+}
+
+header {
+	border-bottom: 1px solid #ccc;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 header li {
 	display: inline-block;
+	margin-left: 3em;
+	margin-right: 3em;
+
 }
 
 header li a {
@@ -31,10 +51,12 @@ header li a {
 .identity {
 	background-color: #4285F4;
 	color: #FFF;
+	padding: 7em 2em;
 }
 
 .identity h1 {
 	font-size: 2.5em;
+	margin-bottom: 0.7em;
 }
 
 .identity h2 {
@@ -44,6 +66,9 @@ header li a {
 
 .projects li {
 	background-color: #6F768B;
+	padding: 1em;
+	margin-bottom: 2em;
+
 }
 
 .projects li a {
@@ -53,11 +78,17 @@ header li a {
 
 .projects li p {
 	color: #d2d6e2;
+	margin-top: 0.5em;
 }
 
 #sobre p.bio {
 	color: #4285F4;
 	font-size: 1.5em;
+	margin: 1em;
+}
+
+#sobre p.text {
+	margin: 1em;
 }
 
 #sobre img {
@@ -66,8 +97,10 @@ header li a {
 
 #contato li {
 	display: inline-block;
+	margin: 1em;
 }
 
-header {
-	border-bottom: 1px solid #ccc;
+footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
