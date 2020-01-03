@@ -1,5 +1,9 @@
 /* Comentário no CSS */
 
+body {
+	font-family: Helvetica, san-serif;
+}
+
 .dark {
 	background-color: #2B313E;
 	color: #FCFCFD;
@@ -11,13 +15,27 @@
 
 }
 
+section h3 {
+	font-size: 1.7em;
+}
+
 header li a {
 	color: #99A0B0;
+	font-weight: lighter;
 }
 
 .identity {
 	background-color: #4285F4;
 	color: #FFF;
+}
+
+.identity h1 {
+	font-size: 2.5em;
+}
+
+.identity h2 {
+	font-size: 1.5em;
+	font-weight: 300;
 }
 
 .projects li {
@@ -26,6 +44,7 @@ header li a {
 
 .projects li a {
 	color: #FFF;
+	font-size: 1.3em;
 }
 
 .projects li p {
@@ -34,4 +53,9 @@ header li a {
 
 #sobre p.bio {
 	color: #4285F4;
+	font-size: 1.5em;
+}
+
+#sobre img {
+	width: 200px;
 }
