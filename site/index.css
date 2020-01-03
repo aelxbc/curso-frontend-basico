@@ -19,6 +19,10 @@ section h3 {
 	font-size: 1.7em;
 }
 
+header li {
+	display: inline-block;
+}
+
 header li a {
 	color: #99A0B0;
 	font-weight: lighter;
@@ -58,4 +62,8 @@ header li a {
 
 #sobre img {
 	width: 200px;
+}
+
+#contato li {
+	display: inline-block;
 }
