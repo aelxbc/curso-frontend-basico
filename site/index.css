@@ -67,3 +67,7 @@ header li a {
 #contato li {
 	display: inline-block;
 }
+
+header {
+	border-bottom: 1px solid #ccc;
+}
