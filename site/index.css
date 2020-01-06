@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Helvetica, san-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 a {
@@ -145,7 +145,34 @@ header li a {
 
 #contato li {
 	display: inline-block;
+}
+
+#contato li a {
+	display: inline-block;
 	margin: 1em;
+	width: 48px;
+	height: 48px;
+	text-indent: -9999px;
+}
+
+#contato .email {
+	background-image: url("./email.png");
+}
+
+#contato .facebook {
+	background-image: url("./facebook.png");
+}
+
+#contato .github {
+	background-image: url("./github.png");
+}
+
+#contato .twitter {
+	background-image: url("./twitter.png");
+}
+
+#contato .linkedin {
+	background-image: url("./linkedin.png");
 }
 
 footer {
